@@ -90,4 +90,36 @@ h1 {
     padding: 20px;
     margin: auto;
     max-height: 100%;
-}  
+} 
+#content div p {
+    text-indent: 2em;
+    width: 90%;
+    border: black 1pt dotted;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 0 auto 5px auto;
+    background-color: bisque;
+} 
+#menu ul{
+    list-style: none;
+    text-align: center;
+}
+#menu ul li{
+    display: inline-block;
+    font-size: 18pt;
+}
+#menu ul li:link {
+    color: blue;
+}
+#menu ul li:hover{
+    color :black;
+    background-color: beige;
+    border-radius: 25%;
+    font-size: 36pt;
+}
+#menu ul li:visited{
+    color :blueviolet;
+}
+#menu ul li:active{
+    color:gold;
+}
